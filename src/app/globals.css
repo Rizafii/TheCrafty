@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 h1 {
-  font-family: "Brawler", serif;
+  font-family: serif;
 }
 
 p {
@@ -10,7 +10,7 @@ p {
 }
 
 .serif {
-  font-family: "Brawler", serif;
+  font-family: serif;
 }
 .sans {
   font-family: "Poppins", sans-serif;
