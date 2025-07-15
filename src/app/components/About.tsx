@@ -35,7 +35,7 @@ function About() {
             {/* Main Image */}
             <div className="relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=700&fit=crop&q=80"
+                src="https://framerusercontent.com/images/mli4ftlb3tiPStMWLVttPnKCnKE.jpg"
                 alt="About us workspace"
                 className="w-full h-96 md:h-[500px] object-cover rounded-2xl shadow-lg"
               />

@@ -11,7 +11,7 @@ function Portfolio() {
       title: "Custom Canvas Tote",
       description: "Premium canvas totebag dengan custom logo perusahaan",
       image:
-        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop",
+        "https://framerusercontent.com/images/V0o1uLAjm5xJRyQICiFjNSYiBI.jpg",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ function Portfolio() {
       title: "Corporate Merchandise",
       description: "Paket merchandise lengkap untuk event perusahaan",
       image:
-        "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=400&h=300&fit=crop",
+        "https://framerusercontent.com/images/WoBpne8KgCdfwnXKnUJYTWqorU.jpg",
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ function Portfolio() {
       title: "Eco-Friendly Bag",
       description: "Totebag ramah lingkungan dengan bahan organic cotton",
       image:
-        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&h=300&fit=crop",
+        "https://framerusercontent.com/images/c86wKkWBVD8DHtUkSQX1fYA7cpk.jpg",
     },
     {
       id: 4,
@@ -35,7 +35,7 @@ function Portfolio() {
       title: "Wedding Favor Bags",
       description: "Custom totebag untuk souvenir pernikahan",
       image:
-        "https://images.unsplash.com/photo-1594736797933-d0d9a3d0e2d1?w=400&h=300&fit=crop",
+        "https://framerusercontent.com/images/8ZJq4n2c9t3SVaOp5hHTynGc0W0.jpg",
     },
     {
       id: 5,
@@ -43,7 +43,7 @@ function Portfolio() {
       title: "University Merchandise",
       description: "Merchandise resmi universitas dengan kualitas premium",
       image:
-        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop&q=80",
+        "https://framerusercontent.com/images/y8GqGivnf8An1TaZxFbFiB0Y9Bw.jpg",
     },
     {
       id: 6,
@@ -51,23 +51,7 @@ function Portfolio() {
       title: "Luxury Leather Tote",
       description: "Totebag kulit premium dengan finishing mewah",
       image:
-        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=300&fit=crop",
-    },
-    {
-      id: 7,
-      category: "totebag",
-      title: "Cotton Canvas Bag",
-      description: "Totebag katun berkualitas tinggi untuk sehari-hari",
-      image:
-        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400&h=300&fit=crop&q=90",
-    },
-    {
-      id: 8,
-      category: "custom",
-      title: "Event Promotional Bags",
-      description: "Custom bag untuk promosi event dan brand awareness",
-      image:
-        "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=400&h=300&fit=crop&q=90",
+        "https://framerusercontent.com/images/nMLc0scNPZ98IXVujZWRbOOJ14.jpg",
     },
   ];
 

@@ -1,7 +1,32 @@
+"use client";
+import { useState, useEffect } from "react";
+
 function Hero() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const images = [
+    "https://framerusercontent.com/images/1SraISyrTQAPOct4NEsfX1gLAA.jpg",
+    "https://framerusercontent.com/images/mdxbifzD82Csis37S8OoTpOc.jpg",
+    "https://framerusercontent.com/images/VXubTNLN2gJvbD3q1GCLzkIYTk.jpg",
+    "https://framerusercontent.com/images/q6jg7aMZgZhzRSBBeIZQXSxk.jpg",
+    "https://framerusercontent.com/images/VQiB0yzenjl3TNvhGs2NKvwjo.jpg",
+    "https://framerusercontent.com/images/6heRi5Q5v6PJVUmOCxjeBFO0U.jpg",
+    "https://framerusercontent.com/images/gEuhcKlVYALJ73vyIgXClfvYI0.jpg",
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [images.length]);
+
   return (
     <>
-      <div className="max-w-7xl mx-auto px-6 py-16 md:py-32" id="home">
+      <div className="max-w-7xl mx-auto px-6 py-16 md:py-14" id="home">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Side - Product Image */}
           <div className="relative">
@@ -10,15 +35,19 @@ function Hero() {
               <div className="md:w-96 md:h-96 w-72 h-72  bg-yellow-100 rounded-full opacity-60"></div>
             </div>
 
-            {/* Product Image Placeholder */}
+            {/* Product Image Carousel */}
             <div className="relative z-10 flex items-center justify-center">
-              <div className="md:w-64 animate-pulse w-44 h-60 md:h-80 bg-gradient-to-b from-yellow-300 to-yellow-500 rounded-2xl shadow-2xl flex items-center justify-center">
-                <div className="text-center text-white">
-                  <div className="text-lg font-bold mb-2">Kiehl's</div>
-                  <div className="text-sm">DAILY REVIVING</div>
-                  <div className="text-sm">CONCENTRATE</div>
-                  <div className="text-xs mt-4">1.7 fl oz • 50 ml</div>
-                </div>
+              <div className="md:w-[450px] w-44 h-60 md:h-[500px] rounded-2xl shadow-2xl overflow-hidden relative">
+                {images.map((image, index) => (
+                  <img
+                    key={index}
+                    src={image}
+                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+                      index === currentImageIndex ? "opacity-100" : "opacity-0"
+                    }`}
+                    alt={`Hero image ${index + 1}`}
+                  />
+                ))}
               </div>
             </div>
 
@@ -36,7 +65,8 @@ function Hero() {
           <div className="space-y-8">
             <div>
               <h1 className="text-4xl lg:text-6xl font-light text-gray-900 leading-tight">
-                Produksi Totebag? Serahkan pada Ahlinya
+                Produksi <span className="text-yellow-600">Totebag?</span>
+                <br className="hidden sm:block" /> Serahkan pada Ahlinya
               </h1>
             </div>
 
@@ -46,7 +76,7 @@ function Hero() {
                 dengan hasil memuaskan.
               </p>
 
-              <button className="bg-black text-white px-8 py-3 text-sm font-medium hover:bg-gray-800 transition-colors">
+              <button className="bg-yellow-600 text-white px-8 py-3 text-sm font-medium hover:bg-gray-800 transition-colors">
                 Hubungi Kami
               </button>
             </div>

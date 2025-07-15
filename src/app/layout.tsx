@@ -21,10 +21,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>Thecrafty.custom | Custom Tote Bags</title>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         />
+        <link rel="icon" href="/logo.avif" />
         <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
       </head>
 
