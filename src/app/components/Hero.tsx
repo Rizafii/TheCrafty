@@ -26,18 +26,13 @@ function Hero() {
 
   return (
     <>
-      <div className="max-w-7xl mx-auto px-6 py-16 md:py-14" id="home">
+      <div className="max-w-7xl mx-auto px-6 py-8 md:py-14" id="home">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Side - Product Image */}
           <div className="relative">
-            {/* Background Circle */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="md:w-96 md:h-96 w-72 h-72  bg-yellow-100 rounded-full opacity-60"></div>
-            </div>
-
             {/* Product Image Carousel */}
             <div className="relative z-10 flex items-center justify-center">
-              <div className="md:w-[450px] w-44 h-60 md:h-[500px] rounded-2xl shadow-2xl overflow-hidden relative">
+              <div className="md:w-[450px] w-60 h-80 md:h-[500px] rounded-2xl shadow-2xl overflow-hidden relative">
                 {images.map((image, index) => (
                   <img
                     key={index}
@@ -52,7 +47,7 @@ function Hero() {
             </div>
 
             {/* Side Navigation */}
-            <div className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-20">
+            <div className="absolute right-0 md:left-0 top-1/2 transform md:-translate-y-46 translate-x-20 md:-translate-x-70">
               <div className="flex  gap-8 text-xs font-medium transform -rotate-90">
                 <span>YOUR</span>
                 <span>LIFESTYLE</span>
