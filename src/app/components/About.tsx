@@ -8,7 +8,7 @@ function About() {
             <div className="space-y-6">
               <div className="text-sm uppercase tracking-wider text-gray-500 font-medium sans">
                 <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-gray-200">
-                  <i className="fas fa-question text-yellow-600 text-sm"></i>
+                  <i className="fas fa-question text-primary text-sm"></i>
                   <span className="text-sm uppercase tracking-wider text-gray-600 font-medium sans">
                     TENTANG KAMI
                   </span>
@@ -16,7 +16,7 @@ function About() {
               </div>
               <h2 className="text-3xl md:text-5xl font-light serif text-gray-900 leading-tight">
                 Crafting Quality,
-                <span className="text-yellow-600"> Delivering Excellence</span>
+                <span className="text-primary"> Delivering Excellence</span>
               </h2>
               <p className="text-gray-600 leading-relaxed sans text-lg">
                 Hai! Kami adalah The Crafty.Co, brand lokal yang hadir untuk
@@ -42,7 +42,7 @@ function About() {
             </div>
 
             {/* Background Elements */}
-            <div className="absolute -top-4 -right-4 w-32 h-32 bg-yellow-200 rounded-full opacity-60 -z-10"></div>
+            <div className="absolute -top-4 -right-4 w-32 h-32 bg-primary/30 rounded-full opacity-60 -z-10"></div>
             <div className="absolute bottom-20 -right-8 w-20 h-20 bg-blue-200 rounded-full opacity-60 -z-10"></div>
           </div>
         </div>

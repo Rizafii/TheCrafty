@@ -60,7 +60,7 @@ function Hero() {
           <div className="space-y-8">
             <div>
               <h1 className="text-4xl lg:text-6xl font-light text-gray-900 leading-tight">
-                Produksi <span className="text-yellow-600">Totebag?</span>
+                Produksi <span className="text-primary">Totebag?</span>
                 <br className="hidden sm:block" /> Serahkan pada Ahlinya
               </h1>
             </div>
@@ -71,7 +71,7 @@ function Hero() {
                 dengan hasil memuaskan.
               </p>
 
-              <button className="bg-yellow-600 text-white px-8 py-3 text-sm font-medium hover:bg-gray-800 transition-colors">
+              <button className="bg-primary text-white px-8 py-3 text-sm font-medium hover:bg-gray-800 transition-colors">
                 Hubungi Kami
               </button>
             </div>

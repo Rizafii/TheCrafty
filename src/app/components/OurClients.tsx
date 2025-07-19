@@ -53,7 +53,7 @@ function OurClients() {
         {/* Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-gray-200 mb-6">
-            <i className="fas fa-star text-yellow-600 text-sm"></i>
+            <i className="fas fa-star text-primary text-sm"></i>
             <span className="text-sm uppercase tracking-wider text-gray-600 font-medium sans">
               Say Hi
             </span>

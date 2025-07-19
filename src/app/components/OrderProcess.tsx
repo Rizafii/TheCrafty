@@ -81,21 +81,21 @@ function OrderProcess() {
   return (
     <div className="py-16 md:py-24  relative overflow-hidden" id="order">
       {/* Background Decorative Elements */}
-      <div className="absolute top-20 left-10 w-32 h-32 bg-yellow-200 rounded-full opacity-30 blur-3xl"></div>
+      <div className="absolute top-20 left-10 w-32 h-32 bg-primary/30 rounded-full opacity-30 blur-3xl"></div>
       <div className="absolute bottom-20 right-10 w-40 h-40 bg-purple-200 rounded-full opacity-30 blur-3xl"></div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-gray-200 mb-6">
-            <i className="fas fa-route text-yellow-600 text-sm"></i>
+            <i className="fas fa-route text-primary text-sm"></i>
             <span className="text-sm uppercase tracking-wider text-gray-600 font-medium sans">
               Cara Memesan
             </span>
           </div>
           <h2 className="text-3xl md:text-5xl font-light serif text-gray-900 mb-6 leading-tight">
             Bagaimana Cara Melakukan
-            <span className="text-yellow-600"> Pesanan?</span>
+            <span className="text-primary"> Pesanan?</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed sans text-lg">
             Proses pemesanan yang mudah dan transparan untuk mendapatkan totebag
@@ -154,7 +154,7 @@ function OrderProcess() {
           <div className="group relative">
             <div className="bg-gradient-to-br from-gray-900 to-gray-700 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-500 group-hover:-translate-y-2 relative z-10 text-white">
               {/* Step Number */}
-              <div className="absolute -top-4 -left-4 w-8 h-8 bg-gradient-to-br from-yellow-500 to-yellow-600 text-white text-sm font-bold rounded-full flex items-center justify-center shadow-lg">
+              <div className="absolute -top-4 -left-4 w-8 h-8 bg-gradient-to-br from-yellow-500 to-primary text-white text-sm font-bold rounded-full flex items-center justify-center shadow-lg">
                 6
               </div>
 
@@ -183,7 +183,7 @@ function OrderProcess() {
               </div>
 
               {/* Hover Effect Gradient */}
-              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/20 to-yellow-600/20 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/20 to-primary/20 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
             </div>
           </div>
         </div>

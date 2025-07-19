@@ -58,20 +58,20 @@ function FAQs() {
   return (
     <div className="py-16 md:py-24 relative overflow-hidden" id="faq">
       {/* Background Decorative Elements - Simplified */}
-      <div className="absolute top-32 right-16 w-64 h-64 bg-yellow-100 rounded-full opacity-40"></div>
+      <div className="absolute top-32 right-16 w-64 h-64 bg-primary/10 rounded-full opacity-40"></div>
       <div className="absolute bottom-32 left-16 w-48 h-48 bg-purple-100 rounded-full opacity-40"></div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-white/80 px-4 py-2 rounded-full border border-gray-200 mb-6">
-            <i className="fas fa-question-circle text-yellow-600 text-sm"></i>
+            <i className="fas fa-question-circle text-primary text-sm"></i>
             <span className="text-sm uppercase tracking-wider text-gray-600 font-medium sans">
               Frequently Asked Questions
             </span>
           </div>
           <h2 className="text-3xl md:text-5xl font-light serif text-gray-900 mb-6 leading-tight">
-            Menjawab<span className="text-yellow-600"> Pertanyaan </span>
+            Menjawab<span className="text-primary"> Pertanyaan </span>
             Kamu
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed sans text-lg">
@@ -95,7 +95,7 @@ function FAQs() {
                   {faq.question}
                 </h3>
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-500 flex items-center justify-center text-white shadow-md">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary/70 to-primary flex items-center justify-center text-white shadow-md">
                     <i
                       className={`fas fa-chevron-down text-sm transition-transform duration-200 ${
                         openIndex === index ? "rotate-180" : ""
@@ -108,7 +108,7 @@ function FAQs() {
               {/* Answer Content - Simplified Animation */}
               {openIndex === index && (
                 <div className="px-8 pb-6 animate-fadeIn">
-                  <div className="h-px bg-gradient-to-r from-gray-200 via-yellow-200 to-gray-200 mb-6"></div>
+                  <div className="h-px bg-gradient-to-r from-gray-200 via-primary/30 to-gray-200 mb-6"></div>
                   <p className="text-gray-600 leading-relaxed sans">
                     {faq.answer}
                   </p>

@@ -3,10 +3,10 @@ function Stats() {
     <div className="px-6 md:px-12 py-16 md:py-20">
       <div className="grid md:grid-cols-3 gap-8 md:gap-8 max-w-7xl mx-auto">
         {/* Stat 1 */}
-        <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-yellow-200 group">
+        <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-primary/30 group">
           <div className="flex items-center justify-between mb-6">
-            <div className="w-14 h-14 bg-yellow-100 rounded-xl flex items-center justify-center group-hover:bg-yellow-200 transition-colors duration-300">
-              <i className="fas fa-award text-yellow-600 text-xl"></i>
+            <div className="w-14 h-14 bg-yellow-100 rounded-xl flex items-center justify-center group-hover:bg-primary/30 transition-colors duration-300">
+              <i className="fas fa-award text-primary text-xl"></i>
             </div>
             <div className="text-4xl md:text-5xl font-medium serif text-gray-900">
               3
@@ -22,7 +22,7 @@ function Stats() {
         </div>
 
         {/* Stat 2 */}
-        <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-yellow-200 group">
+        <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-primary/30 group">
           <div className="flex items-center justify-between mb-6">
             <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center group-hover:bg-blue-200 transition-colors duration-300">
               <i className="fas fa-briefcase text-blue-600 text-xl"></i>
@@ -41,7 +41,7 @@ function Stats() {
         </div>
 
         {/* Stat 3 */}
-        <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-yellow-200 group">
+        <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-primary/30 group">
           <div className="flex items-center justify-between mb-6">
             <div className="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center group-hover:bg-green-200 transition-colors duration-300">
               <i className="fas fa-heart text-green-600 text-xl"></i>

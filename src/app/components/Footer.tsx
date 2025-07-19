@@ -46,10 +46,10 @@ function Footer() {
                 <i className="fab fa-whatsapp text-lg group-hover:text-green-400 transition-colors duration-300"></i>
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/@thecrafty.custom?_t=ZS-8y93n4f80AM&_r=1"
                 className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300 hover:scale-110 group"
               >
-                <i className="fab fa-facebook text-lg group-hover:text-blue-400 transition-colors duration-300"></i>
+                <i className="fab fa-tiktok text-lg group-hover:text-black transition-colors duration-300"></i>
               </a>
             </div>
           </div>
@@ -63,8 +63,8 @@ function Footer() {
             {/* Address */}
             <div className="space-y-4">
               <div className="flex items-start gap-4 group">
-                <div className="w-10 h-10 bg-yellow-500/20 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-yellow-500/30 transition-colors duration-300">
-                  <i className="fas fa-map-marker-alt text-yellow-400 text-sm"></i>
+                <div className="w-10 h-10 bg-primary/20 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary/30 transition-colors duration-300">
+                  <i className="fas fa-map-marker-alt text-primary/40 text-sm"></i>
                 </div>
                 <div>
                   <p className="text-sm font-medium text-gray-300 mb-1">
@@ -151,11 +151,11 @@ function Footer() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-3xl p-8 md:p-12 text-center mb-12">
-          <h3 className="text-2xl md:text-3xl font-light serif text-black mb-4">
+        <div className="bg-gradient-to-r from-primary/20 to-primary rounded-3xl p-8 md:p-12 text-center mb-12">
+          <h3 className="text-2xl md:text-3xl font-light serif text-white mb-4">
             Siap Berkolaborasi?
           </h3>
-          <p className="text-black/80 mb-8 sans max-w-md mx-auto">
+          <p className="text-white/80 mb-8 sans max-w-md mx-auto">
             Hubungi kami sekarang dan wujudkan ide kreatif Anda menjadi
             kenyataan
           </p>
@@ -173,7 +173,7 @@ function Footer() {
               href="https://instagram.com/thecrafty.custom"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white/20 text-black px-8 py-4 rounded-2xl font-medium border border-black/20 hover:bg-white/30 transition-all duration-300 hover:-translate-y-1 flex items-center justify-center gap-2"
+              className="bg-white text-black px-8 py-4 rounded-2xl font-medium border border-black/20 hover:bg-white/30 transition-all duration-300 hover:-translate-y-1 flex items-center justify-center gap-2"
             >
               <i className="fab fa-instagram text-lg"></i>
               Follow Instagram

@@ -81,7 +81,7 @@ function Navbar() {
               >
                 thecrafty.custom
               </a>
-              <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-yellow-400 to-yellow-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+              <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-primary/80 to-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
             </div>
           </div>
 
@@ -94,7 +94,7 @@ function Navbar() {
                 className="relative text-sm font-medium text-gray-600 hover:text-black transition-all duration-300 uppercase tracking-wide group cursor-pointer"
               >
                 About
-                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></div>
+                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary/80 group-hover:w-full transition-all duration-300"></div>
               </a>
               <a
                 href="#portfolio"
@@ -102,7 +102,7 @@ function Navbar() {
                 className="relative text-sm font-medium text-gray-600 hover:text-black transition-all duration-300 uppercase tracking-wide group cursor-pointer"
               >
                 Portfolio
-                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></div>
+                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary/80 group-hover:w-full transition-all duration-300"></div>
               </a>
               <a
                 href="#client"
@@ -110,7 +110,7 @@ function Navbar() {
                 className="relative text-sm font-medium text-gray-600 hover:text-black transition-all duration-300 uppercase tracking-wide group cursor-pointer"
               >
                 Client
-                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></div>
+                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary/80 group-hover:w-full transition-all duration-300"></div>
               </a>
               <a
                 href="#order"
@@ -118,7 +118,7 @@ function Navbar() {
                 className="relative text-sm font-medium text-gray-600 hover:text-black transition-all duration-300 uppercase tracking-wide group cursor-pointer"
               >
                 Order
-                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></div>
+                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary/80 group-hover:w-full transition-all duration-300"></div>
               </a>
               <a
                 href="#testimoni"
@@ -126,7 +126,7 @@ function Navbar() {
                 className="relative text-sm font-medium text-gray-600 hover:text-black transition-all duration-300 uppercase tracking-wide group cursor-pointer"
               >
                 Testimoni
-                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></div>
+                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary/80 group-hover:w-full transition-all duration-300"></div>
               </a>
               <a
                 href="#faq"
@@ -134,7 +134,7 @@ function Navbar() {
                 className="relative text-sm font-medium text-gray-600 hover:text-black transition-all duration-300 uppercase tracking-wide group cursor-pointer"
               >
                 FAQs
-                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></div>
+                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary/80 group-hover:w-full transition-all duration-300"></div>
               </a>
               <a
                 href="#contact"
@@ -142,7 +142,7 @@ function Navbar() {
                 className="relative text-sm font-medium text-gray-600 hover:text-black transition-all duration-300 uppercase tracking-wide group cursor-pointer"
               >
                 Contact
-                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-500 group-hover:w-full transition-all duration-300"></div>
+                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary/80 group-hover:w-full transition-all duration-300"></div>
               </a>
             </div>
           </div>
@@ -158,13 +158,13 @@ function Navbar() {
               <i className="fab fa-instagram text-sm"></i>
             </a>
             <a
-              href="#"
-              className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-gray-600 hover:text-blue-500 hover:bg-blue-50 transition-all duration-300 hover:scale-110 border border-gray-200/50"
+              href="https://wa.me/6283133547733"
+              className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-gray-600 hover:text-green-500 hover:bg-green-50 transition-all duration-300 hover:scale-110 border border-gray-200/50"
             >
-              <i className="fab fa-facebook text-sm"></i>
+              <i className="fab fa-whatsapp text-sm"></i>
             </a>
             <a
-              href="#"
+              href="https://www.tiktok.com/@thecrafty.custom?_t=ZS-8y93n4f80AM&_r=1"
               className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-gray-600 hover:text-black hover:bg-gray-50 transition-all duration-300 hover:scale-110 border border-gray-200/50"
             >
               <i className="fab fa-tiktok text-sm"></i>
@@ -256,13 +256,13 @@ function Navbar() {
                 <i className="fab fa-instagram text-sm"></i>
               </a>
               <a
-                href="#"
-                className="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center text-white hover:bg-blue-600 transition-colors duration-200"
+                href="https://wa.me/6283133547733"
+                className="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center text-white hover:bg-green-600 transition-colors duration-200"
               >
-                <i className="fab fa-facebook text-sm"></i>
+                <i className="fab fa-whatsapp text-sm"></i>
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/@thecrafty.custom?_t=ZS-8y93n4f80AM&_r=1"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-white hover:bg-gray-900 transition-colors duration-200"
               >
                 <i className="fab fa-tiktok text-sm"></i>

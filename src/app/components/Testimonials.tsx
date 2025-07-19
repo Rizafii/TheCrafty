@@ -79,20 +79,20 @@ function Testimonials() {
   return (
     <div className="py-16 md:py-24  relative overflow-hidden" id="testimoni">
       {/* Background Decorative Elements */}
-      <div className="absolute top-20 right-20 w-40 h-40 bg-yellow-100 rounded-full opacity-30"></div>
+      <div className="absolute top-20 right-20 w-40 h-40 bg-primary/60 rounded-full opacity-30"></div>
       <div className="absolute bottom-20 left-20 w-32 h-32 bg-purple-100 rounded-full opacity-30"></div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-white/80 px-4 py-2 rounded-full border border-gray-200 mb-6">
-            <i className="fas fa-quote-left text-yellow-600 text-sm"></i>
+            <i className="fas fa-quote-left text-primary text-sm"></i>
             <span className="text-sm uppercase tracking-wider text-gray-600 font-medium sans">
               Testimoni
             </span>
           </div>
           <h2 className="text-3xl md:text-5xl font-light serif text-gray-900 mb-6 leading-tight">
-            Apa Kata <span className="text-yellow-600">Pelanggan</span> Kami?
+            Apa Kata <span className="text-primary">Pelanggan</span> Kami?
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed sans text-lg">
             Kepuasan pelanggan adalah prioritas utama kami. Berikut testimoni
@@ -105,7 +105,7 @@ function Testimonials() {
           <div className="order-2 lg:order-1">
             <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100 relative">
               {/* Quote Icon */}
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center shadow-lg">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-lg">
                 <i className="fas fa-quote-left text-white text-lg"></i>
               </div>
 
@@ -129,7 +129,7 @@ function Testimonials() {
                 <img
                   src={testimonials[activeTestimonial].image}
                   alt={testimonials[activeTestimonial].name}
-                  className="w-16 h-16 rounded-full object-cover border-2 border-yellow-200"
+                  className="w-16 h-16 rounded-full object-cover border-2 border-primary/30"
                 />
                 <div>
                   <h4 className="font-semibold text-gray-900 sans">
@@ -143,13 +143,6 @@ function Testimonials() {
                   </p>
                 </div>
               </div>
-
-              {/* Project Tag */}
-              <div className="absolute top-6 right-6">
-                <span className="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-xs font-medium">
-                  {testimonials[activeTestimonial].project}
-                </span>
-              </div>
             </div>
 
             {/* Navigation Controls */}
@@ -161,7 +154,7 @@ function Testimonials() {
                     onClick={() => setActiveTestimonial(index)}
                     className={`w-3 h-3 rounded-full transition-all duration-300 ${
                       index === activeTestimonial
-                        ? "bg-yellow-500 w-8"
+                        ? "bg-primary/90 w-8"
                         : "bg-gray-300 hover:bg-gray-400"
                     }`}
                   ></button>
