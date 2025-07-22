@@ -2,6 +2,7 @@
 import "./globals.css";
 import Lenis from "@studio-freight/lenis";
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({
   children,
@@ -30,7 +31,10 @@ export default function RootLayout({
         <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
       </head>
 
-      <body className={`antialiased`}>{children}</body>
+      <body className={`antialiased`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
