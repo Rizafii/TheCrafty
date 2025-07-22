@@ -64,8 +64,8 @@ function Portfolio() {
             pekerjaan kita
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed sans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Lihat bagaimana ide-ide sederhana bisa berubah jadi karya yang
+            bermakna.
           </p>
         </div>
 

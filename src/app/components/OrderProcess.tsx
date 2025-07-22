@@ -20,7 +20,7 @@ function OrderProcess() {
       id: 3,
       title: "Sesuaikan dengan Budget",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+        "Kamu punya anggaran terbatas? Tenang, kami bantu menyesuaikan! Pilih jenis bahan dan teknik cetak yang sesuai kantong tanpa mengorbankan kualitas. Transparan, fleksibel, dan pastinya tetap kece!",
       icon: "fa-calculator",
       color: "green",
     },
@@ -28,7 +28,7 @@ function OrderProcess() {
       id: 4,
       title: "Lakukan Pembayaran",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+        "Setelah detail disepakati, admin akan mengirimkan invoice pembayaran. Kami menyediakan berbagai metode pembayaran yang aman dan praktis. Pesanan akan mulai diproses setelah pembayaran dikonfirmasi.",
       icon: "fa-credit-card",
       color: "yellow",
     },
@@ -36,7 +36,7 @@ function OrderProcess() {
       id: 5,
       title: "Proses Produksi Dimulai!",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+        "Setelah pembayaran, totebag kamu langsung masuk ke tahap produksi. Dikerjakan dengan teliti oleh tim berpengalaman dan quality control yang ketat. Kami pastikan pesananmu selesai tepat waktu dan sesuai ekspektasi!",
       icon: "fa-cogs",
       color: "orange",
     },
@@ -98,8 +98,7 @@ function OrderProcess() {
             <span className="text-primary"> Pesanan?</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed sans text-lg">
-            Proses pemesanan yang mudah dan transparan untuk mendapatkan totebag
-            custom impianmu
+            Gampang banget! Cukup ikuti 5 langkah berikut:
           </p>
         </div>
 

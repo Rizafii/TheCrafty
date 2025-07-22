@@ -16,8 +16,8 @@ function Stats() {
             Tahun Berpengalaman
           </h3>
           <p className="text-gray-600 text-sm leading-relaxed sans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt.
+            kami telah membantu ratusan pelanggan mewujudkan produk custom yang
+            unik dan berkualitas.
           </p>
         </div>
 
@@ -28,15 +28,14 @@ function Stats() {
               <i className="fas fa-briefcase text-blue-600 text-xl"></i>
             </div>
             <div className="text-4xl md:text-5xl font-medium serif text-gray-900">
-              40
+              100+
             </div>
           </div>
           <h3 className="text-lg md:text-xl font-semibold text-gray-900 sans mb-3">
             Layanan Dikerjakan
           </h3>
           <p className="text-gray-600 text-sm leading-relaxed sans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt.
+            Lebih dari 100 pesanan custom telah kami selesaikan
           </p>
         </div>
 
@@ -54,8 +53,8 @@ function Stats() {
             Customer Puas
           </h3>
           <p className="text-gray-600 text-sm leading-relaxed sans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt.
+            Kami selalu mengutamakan kepuasan pelanggan, mulai dari konsultasi
+            hingga produk sampai di tangan.
           </p>
         </div>
       </div>

@@ -7,51 +7,39 @@ function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
-      role: "Event Organizer",
-      company: "Creative Events Co.",
-      image:
-        "https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=100&h=100&fit=crop&crop=face",
+      name: "Reza",
+      role: "Customer",
       rating: 5,
       review:
-        "Kualitas totebag yang kami pesan sangat memuaskan! Tim thecrafty.custom sangat profesional dan responsif. Hasil akhirnya melebihi ekspektasi kami.",
-      project: "Custom Event Bags",
+        "Pernah custom di sini waktunya mepet poll tp adminnya baik bangettt diusahain dan bisa jadi sebelum deadlinenyaa!! Sukses selalu the crafty custom! 🥰",
+      project: "Custom Pouch",
     },
     {
       id: 2,
-      name: "Michael Chen",
-      role: "Marketing Manager",
-      company: "Tech Startup Inc.",
-      image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+      name: "Putri",
+      role: "Customer",
       rating: 5,
       review:
-        "Pengalaman bekerja sama dengan thecrafty.custom luar biasa. Proses dari konsultasi hingga pengiriman sangat smooth dan hasilnya berkualitas tinggi.",
-      project: "Corporate Merchandise",
+        "Bisa custom totebag sesuai budgetkuuuu!! Mana diarahin bnyk pilihan dan model sama admin 🔥 terima kasih the crafty custom!",
+      project: "Custom Totebag",
     },
     {
       id: 3,
-      name: "Diana Putri",
-      role: "Wedding Planner",
-      company: "Elegant Weddings",
-      image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+      name: "Zoey",
+      role: "Customer",
       rating: 5,
       review:
-        "Totebag untuk souvenir pernikahan klien kami mendapat pujian luar biasa. Desainnya elegan dan kualitas bahan sangat premium. Highly recommended!",
-      project: "Wedding Favor Bags",
+        "Kualitas totebagnya bagus banget, jahitan rapi, sablonnya keren 🤩 next aku order lagi dengan model lain ☺",
+      project: "Custom Totebag",
     },
     {
       id: 4,
-      name: "Ahmad Rizky",
-      role: "Brand Manager",
-      company: "Local Fashion Brand",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+      name: "Kirana",
+      role: "Customer",
       rating: 5,
       review:
-        "Sudah 3 kali order di thecrafty.custom dan selalu puas dengan hasilnya. Kualitas konsisten, harga kompetitif, dan pelayanan yang excellent.",
-      project: "Brand Merchandise",
+        "Produksi sangar cepat, harga terjangkau, admin ramah. Mana dikasih tambahan totebag di luar jumlah pesanan! Nicee bgt! 😍",
+      project: "Custom Totebag",
     },
   ];
 
@@ -126,20 +114,12 @@ function Testimonials() {
 
               {/* Customer Info */}
               <div className="flex items-center gap-4">
-                <img
-                  src={testimonials[activeTestimonial].image}
-                  alt={testimonials[activeTestimonial].name}
-                  className="w-16 h-16 rounded-full object-cover border-2 border-primary/30"
-                />
                 <div>
                   <h4 className="font-semibold text-gray-900 sans">
                     {testimonials[activeTestimonial].name}
                   </h4>
                   <p className="text-gray-600 text-sm">
                     {testimonials[activeTestimonial].role}
-                  </p>
-                  <p className="text-gray-500 text-xs">
-                    {testimonials[activeTestimonial].company}
                   </p>
                 </div>
               </div>
@@ -184,7 +164,7 @@ function Testimonials() {
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-white rounded-2xl p-6 shadow-lg text-center border border-gray-100">
                 <div className="text-3xl font-light serif text-gray-900 mb-2">
-                  250+
+                  100+
                 </div>
                 <div className="text-gray-600 text-sm sans">
                   Happy Customers
@@ -218,11 +198,6 @@ function Testimonials() {
                     }
                   >
                     <div className="flex items-start gap-4">
-                      <img
-                        src={testimonial.image}
-                        alt={testimonial.name}
-                        className="w-12 h-12 rounded-full object-cover"
-                      />
                       <div className="flex-1">
                         <div className="flex items-center gap-2 mb-2">
                           <h5 className="font-semibold text-gray-900 text-sm sans">

@@ -2,48 +2,48 @@ function OurClients() {
   const clients = [
     {
       id: 1,
-      name: "Google",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png",
+      name: "Bapenda Surakarta",
+      logo: "https://i.imgur.com/HRYBlyH.png",
     },
     {
       id: 2,
-      name: "Microsoft",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png",
+      name: "Rosalia",
+      logo: "https://i.imgur.com/C5iZtlO.png",
     },
     {
       id: 3,
-      name: "Apple",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/488px-Apple_logo_black.svg.png",
+      name: "UNS (Universitas Sebelas Maret)",
+      logo: "https://i.imgur.com/BE2bTM0.png",
     },
     {
       id: 4,
-      name: "Amazon",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/603px-Amazon_logo.svg.png",
+      name: "Peradi",
+      logo: "https://i.imgur.com/jIDXHww.png",
     },
     {
       id: 5,
-      name: "Netflix",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/512px-Netflix_2015_logo.svg.png",
+      name: "Persis",
+      logo: "https://i.imgur.com/Bslrs0m.png",
     },
     {
       id: 6,
-      name: "Spotify",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/512px-Spotify_icon.svg.png",
+      name: "Mangkunegaran",
+      logo: "https://i.imgur.com/YrEpiaj.png",
     },
     {
       id: 7,
-      name: "Adobe",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Adobe_Systems_logo_and_wordmark.svg/524px-Adobe_Systems_logo_and_wordmark.svg.png",
+      name: "Pemkot Solo",
+      logo: "https://i.imgur.com/3TrXJvJ.png",
     },
     {
       id: 8,
-      name: "Tesla",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/512px-Tesla_T_symbol.svg.png",
+      name: "TATV",
+      logo: "https://i.imgur.com/1MPMLK6.png",
     },
     {
       id: 9,
-      name: "Meta",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/512px-Meta_Platforms_Inc._logo.svg.png",
+      name: "UNDIP",
+      logo: "https://i.imgur.com/YdKc17a.png",
     },
   ];
 
@@ -62,8 +62,8 @@ function OurClients() {
             Klien Kami
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed sans">
-            Dipercaya oleh berbagai brand ternama untuk memproduksi totebag dan
-            merchandise berkualitas tinggi.
+            Kami bangga bisa menjadi bagian dari perjalanan mereka lewat produk
+            custom yang personal dan berkualitas.
           </p>
         </div>
 

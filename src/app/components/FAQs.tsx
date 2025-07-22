@@ -75,7 +75,7 @@ function FAQs() {
             Kamu
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed sans text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            Punya pertanyaan seputar pemesanan, bahan, atau pengiriman?
           </p>
         </div>
 
