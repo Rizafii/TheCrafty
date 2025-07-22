@@ -38,7 +38,7 @@ function Footer() {
                 <i className="fab fa-instagram text-lg group-hover:text-pink-400 transition-colors duration-300"></i>
               </a>
               <a
-                href="https://wa.me/6283133547733"
+                href="https://wa.me/6282133547733"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300 hover:scale-110 group"
@@ -63,14 +63,21 @@ function Footer() {
             {/* Address */}
             <div className="space-y-4">
               <div className="flex items-start gap-4 group">
-                <div className="w-10 h-10 bg-primary/20 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary/30 transition-colors duration-300">
-                  <i className="fas fa-map-marker-alt text-primary/40 text-sm"></i>
+                <div className="w-10 h-10 bg-yellow-500/20 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary/30 transition-colors duration-300">
+                  <i className="fas fa-map-marker-alt text-yellow-400 text-sm"></i>
                 </div>
                 <div>
                   <p className="text-sm font-medium text-gray-300 mb-1">
                     Alamat
                   </p>
-                  <p className="text-white sans">Pasar Kliwon, Surakarta</p>
+                  <a
+                    href="https://maps.app.goo.gl/Ekq43cTp1HgqETGk9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white sans hover:text-yellow-400 transition-colors duration-300"
+                  >
+                    Pasar Kliwon, Surakarta
+                  </a>
                 </div>
               </div>
 
@@ -104,12 +111,12 @@ function Footer() {
                     WhatsApp
                   </p>
                   <a
-                    href="https://wa.me/6283133547733"
+                    href="https://wa.me/6282133547733"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white sans hover:text-green-400 transition-colors duration-300"
                   >
-                    +62 831-3354-7733
+                    +62 821-3354-7733
                   </a>
                 </div>
               </div>
@@ -161,7 +168,7 @@ function Footer() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/6283133547733"
+              href="https://wa.me/6282133547733"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-black text-white px-8 py-4 rounded-2xl font-medium hover:bg-gray-800 transition-all duration-300 hover:-translate-y-1 flex items-center justify-center gap-2 shadow-lg"

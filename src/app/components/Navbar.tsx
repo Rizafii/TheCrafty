@@ -158,7 +158,7 @@ function Navbar() {
               <i className="fab fa-instagram text-sm"></i>
             </a>
             <a
-              href="https://wa.me/6283133547733"
+              href="https://wa.me/6282133547733"
               className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-gray-600 hover:text-green-500 hover:bg-green-50 transition-all duration-300 hover:scale-110 border border-gray-200/50"
             >
               <i className="fab fa-whatsapp text-sm"></i>
@@ -256,7 +256,7 @@ function Navbar() {
                 <i className="fab fa-instagram text-sm"></i>
               </a>
               <a
-                href="https://wa.me/6283133547733"
+                href="https://wa.me/6282133547733"
                 className="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center text-white hover:bg-green-600 transition-colors duration-200"
               >
                 <i className="fab fa-whatsapp text-sm"></i>
@@ -271,14 +271,24 @@ function Navbar() {
           </div>
 
           {/* Contact Info - Simplified */}
-          <div className="mt-6 pt-4 border-t border-gray-200">
+          <div className="mt-6 pt-4 border-t border-gray-200 flex flex-col">
             <p className="text-xs text-gray-500 mb-3 uppercase tracking-wider">
               Contact
             </p>
-            <p className="text-sm text-gray-700 mb-2">
+            <a
+              href="https://maps.app.goo.gl/Ekq43cTp1HgqETGk9"
+              className="text-sm text-gray-700 mb-2"
+            >
               Pasar Kliwon, Surakarta
-            </p>
-            <p className="text-sm text-gray-700">+62 831-3354-7733</p>
+            </a>
+            <a
+              href="https://wa.me/6282133547733"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-gray-700"
+            >
+              +62 821-3354-7733
+            </a>
           </div>
         </div>
       </div>
