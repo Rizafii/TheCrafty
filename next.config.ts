@@ -1,19 +1,7 @@
-// next.config.ts
-const nextConfig = {
-  headers() {
-    return [
-      {
-        source: "/(.*)",
-        headers: [
-          {
-            key: "Content-Security-Policy",
-            value:
-              "script-src 'self' https://the-crafty.vercel.app/_vercel/insights;",
-          },
-        ],
-      },
-    ];
-  },
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
 };
 
 export default nextConfig;
