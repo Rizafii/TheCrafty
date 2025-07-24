@@ -22,7 +22,7 @@ function About() {
                 Hai! Kami adalah The Crafty.Co, brand lokal yang hadir untuk
                 kamu yang suka tampil beda lewat produk custom berkualitas.
                 umumnya yang kami produksi adalah totebag, goodiebag, tas
-                seminar, pounch dan lainnya yang terbuat dari bahan seperti
+                seminar, pouch dan lainnya yang terbuat dari bahan seperti
                 kanvas. blacu, spunbond dan masih banyak bahan lagi, yang
                 tentunya kami produksi sesuai dengan model dan desain dari
                 permintaan customer kami dengan kualiatas bahan terbaik.

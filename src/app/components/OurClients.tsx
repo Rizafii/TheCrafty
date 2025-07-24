@@ -78,7 +78,7 @@ function OurClients() {
                 <img
                   src={client.logo}
                   alt={client.name}
-                  className="h-6 md:h-8 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300 opacity-60 group-hover:opacity-100"
+                  className="h-6 md:h-8 w-auto object-contain filter  transition-all duration-300 "
                 />
               </div>
             ))}

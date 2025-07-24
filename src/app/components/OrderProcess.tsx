@@ -98,7 +98,7 @@ function OrderProcess() {
             <span className="text-primary"> Pesanan?</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed sans text-lg">
-            Gampang banget! Cukup ikuti 5 langkah berikut:
+            Gampang banget! Cukup ikuti 6 langkah berikut:
           </p>
         </div>
 
@@ -174,10 +174,13 @@ function OrderProcess() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col gap-3 pt-4">
-                  <button className="bg-white text-gray-900 px-6 py-3 rounded-xl font-medium hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex items-center justify-center gap-2 text-sm">
+                  <a
+                    href="https://wa.me/6282133547733"
+                    className="bg-white text-gray-900 px-6 py-3 rounded-xl font-medium hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex items-center justify-center gap-2 text-sm"
+                  >
                     <i className="fab fa-whatsapp text-green-600 text-lg"></i>
                     WhatsApp: 0821-3354-7733
-                  </button>
+                  </a>
                 </div>
               </div>
 
