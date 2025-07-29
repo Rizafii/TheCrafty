@@ -19,7 +19,7 @@ function About() {
                 <span className="text-primary"> Delivering Excellence</span>
               </h2>
               <p className="text-gray-600 leading-relaxed sans text-lg">
-                Hai! Kami adalah The Crafty.Co, brand lokal yang hadir untuk
+                Hai! Kami adalah Thecrafty.Custom, brand lokal yang hadir untuk
                 kamu yang suka tampil beda lewat produk custom berkualitas.
                 umumnya yang kami produksi adalah totebag, goodiebag, tas
                 seminar, pouch dan lainnya yang terbuat dari bahan seperti
