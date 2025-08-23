@@ -76,7 +76,7 @@ function Footer() {
                     rel="noopener noreferrer"
                     className="text-white sans hover:text-yellow-400 transition-colors duration-300"
                   >
-                    Pasar Kliwon, Surakarta
+                    Serengan, Surakarta
                   </a>
                 </div>
               </div>
